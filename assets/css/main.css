@@ -29,6 +29,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+.maincontainer {
+	width:100%;
+	text-align: center;
+	height:auto;
+	padding:1%;
+}
+
 body {
 	line-height: 1;
 }
@@ -2643,7 +2651,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
 			}
 
 		@media screen and (max-width: 736px) {
